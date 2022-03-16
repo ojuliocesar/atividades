@@ -1,0 +1,20 @@
+body {
+    background-image: url(../img/20210619_170519.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Fira Code';
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 #fff;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}

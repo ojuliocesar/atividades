@@ -1,0 +1,56 @@
+.main-carousel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-carousel::after {
+    content: '';
+    background-color: #000;
+    display: block;
+    left: 45.4px;
+    height: 5px;
+    width: calc(100% - 88px);
+    position: absolute;
+    top: 58px;
+}
+
+.main-carousel::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 58px;
+    border: 2.5px dashed #000;
+}
+
+.mugywaras {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mugywaras::before {
+    content: '';
+    border: 2.5px dashed #000;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    height: 0px;
+    width: 40px;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 215px;
+}
+
+.mugywaras .img {
+    height: 215px;
+    border: 5px solid #000;
+}
+
+.mugywaras .title {
+    font-family: Fira Code;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
