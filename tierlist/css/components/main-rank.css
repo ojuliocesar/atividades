@@ -1,0 +1,29 @@
+.main-rank {
+    display: flex;
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-rank.-ss{
+    background-color: #F26D78;
+}
+.main-rank.-s{
+    background-color: #FFB877;
+}
+.main-rank.-a{
+    background-color: #FEDC7A;
+}
+.main-rank.-b{
+    background-color: #FEFF7D;
+}
+.main-rank.-c{
+    background-color: #B8FF7C;
+}
+.main-rank.-d{
+    background-color: #73FF7C;
+}
+.main-rank.-e{
+    background-color: #74FFFD;
+}

@@ -1,0 +1,8 @@
+.main-items {
+    display: flex;
+    border: 2px solid #000;
+    list-style-type: none;
+    width: 1000px;
+    height: 80px;
+    justify-content: space-between;
+}
